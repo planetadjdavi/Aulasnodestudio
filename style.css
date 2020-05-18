@@ -1,6 +1,50 @@
-*{margin: 0; padding: 0; color: red;}
+
+
+
+
+/* A classe pode ser utilizada mais de uma vez, na mesma <>  classes */
+
+
+.texto-principal {background: green; padding: 20px;}
+.fundo-principal {background-color: blue; padding: 20px;}
+
+/* A div só pode ser utilizada uma úncia vez, diferente das classes */
+
+#conteudo { background: blue; padding: 20px;}
+
+
 
 
 
 /*
+ 
+ Seletor universal da página 
+*{margin: 0; padding: 0; }
+
+ SELETOR DE TAG 
+
+h1 {color: blue; font-size: 50px;}
+p {color: green; font-size: 12px; }
+ 
+
+
+AULA1 
 h1 { color: blue; font-size: 60px; font-family: tahoma; }
+
+
+ border é a borda
+
+input[type=text] {  width: 200px; background-color:#ccc; height: 35px; border: none;}
+
+input[type=email] {  width: 200px; background-color:#ccc; height: 35px; border: none;}
+
+input[type=submit] {  width: 50px; background-color:green; height: 35px; border: none; cursor: pointer; color:white;}
+
+
+AULA 4
+
+h1,h2,p { color: red; text-align: center;}
+
+
+*/
+
