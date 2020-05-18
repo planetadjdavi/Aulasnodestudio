@@ -1,8 +1,13 @@
 
 
+/*coonteudo width; heigth; max-height; mmin-height dentro da "di" */
+
+#conteudo {background-color: green ;  color: white; min-width: 20px; max-height: 500px; padding: 20px;  height: 20px;}
 
 
-/* A classe pode ser utilizada mais de uma vez, na mesma <>  classes */
+
+
+/* A classe pode ser utilizada mais de uma vez, na mesma <>      classes */
 
 
 .texto-principal {background: green; padding: 20px;}
@@ -10,7 +15,7 @@
 
 /* A div só pode ser utilizada uma úncia vez, diferente das classes */
 
-#conteudo { background: blue; padding: 20px;}
+#conteudo2 { background: blue; padding: 20px;}
 
 
 
