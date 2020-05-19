@@ -1,8 +1,19 @@
 
 
+
+/*  AULA 7  
+
+padding é o espaçamento interno do bloco definido o madding é o espaçamento externo */
+
+
+#exemplo1 {background-color: green; color: white;   width: 400px; padding:100px 100px 300px 100px ;  }
+#exemplo2 {background-color: tomato; color: #fff; width: 400px; margin-top: 20px ;}
+
+
 /*coonteudo width; heigth; max-height; mmin-height dentro da "di" */
 
 #conteudo {background-color: green ;  color: white; min-width: 20px; max-height: 500px; padding: 20px;  height: 20px;}
+
 
 
 
