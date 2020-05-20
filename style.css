@@ -1,6 +1,57 @@
 
 
 
+
+
+
+/*AULA 10   Nçao altera o tamanho fixo de um elemento no padding
+ define a largura do padding e deve ser definido no começo 
+*/
+
+*{box-sizing: border-box;}
+
+
+#conteudo3{  width: 500px; padding: 30px;   background: red; box-shadow: seagreen 10px 10px ; }
+ 
+#conteudo4 { te  padding: 30px; margin-top: 40px;   width:  500px;  text-align: left; background: orange; box-shadow: 10px 10px pink; 
+ }
+
+
+
+
+
+
+
+/*AULA 8 e 9 TEXT  Text transformation: upercase ( deixa letra maiuscula)
+
+text-transform: lowercase (deixa a letra minuscula)
+
+text-transform: capitalize; só a primeira letra fica maiuscula
+
+text-decoration: underline; linha embaixo
+
+text-decoration: overline; linha acima
+
+text-decoration: line-through; linha no centro do texto 
+-------------------------------------------------------------------------------
+
+
+text-shadom : cria uma sombra no texto
+
+line-height: espaçamento entre linhas do texto 
+
+direction: rtl - texto é lido da direita pra esquerda
+direction:ltr - texto é lido da esquerda pra direita
+letter-spacing: - É o espaçamento entre as letras do texto.
+word-spacing:- É o espaçamento entre palavras 
+
+*/
+
+p{ color: red; text-transform: uppercase;  direction:ltr; letter-spacing: ; word-spacing: 30px;}
+h1{ text-align: left; text-decoration: underline; text-shadow: 1px 3px red ;   }
+h2 {  text-align: right; text-decoration: overline;  }
+h3{  text-align: center; text-decoration: line-through;  }
+
 /*  AULA 7  
 
 padding é o espaçamento interno do bloco definido o madding é o espaçamento externo */
