@@ -1,7 +1,17 @@
 
 
 
+/* AULA 12 
 
+border-radius - cria as bordas dobraveis na div 
+
+
+
+
+/*AULA 11 Overflow cria um scroll de rolamento e o opacity deixa invisivel 
+
+
+#conteudo5 { width: 300px; height: 50px; background: steelblue; overflow: auto;  }
 
 
 /*AULA 10   Nçao altera o tamanho fixo de um elemento no padding
@@ -10,10 +20,14 @@
 
 *{box-sizing: border-box;}
 
+#conteudo5 { width: 300px; height: 50px;
+     background: steelblue; overflow: auto;    }
 
-#conteudo3{  width: 500px; padding: 30px;   background: red; box-shadow: seagreen 10px 10px ; }
+#conteudo3 {  opacity:0.5 ; width: 500px; padding: 30px;  
+     background: red; box-shadow: seagreen 10px 10px ;  border-radius: 10px 10px 10px; }
  
-#conteudo4 { te  padding: 30px; margin-top: 40px;   width:  500px;  text-align: left; background: orange; box-shadow: 10px 10px pink; 
+#conteudo4 {    padding: 30px; margin-top: 40px;   width:  500px;  
+    text-align: left; background: orange; box-shadow: 10px 10px pink; 
  }
 
 
