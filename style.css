@@ -1,11 +1,30 @@
 
 
 
+/*AULA13
+
+
+font-family: 'Times New Roman', Times, serif; ( escolhe o tipo de fonte a ser usada no texto,
+se n der certo a primeira escolha no navegador ele pula pra próxima)
+
+
+font-size: define o tamanho da fonte. Se quiser usar o tamanho padrão usar  1em ( 16px)
+
+
+se eu quiser um tamanho de 40px dividir por 16 e o resultado será em  : 2.5em ( 40px em em)
+
+
+
 /* AULA 12 
 
-border-radius - cria as bordas dobraveis na div 
+border-radius - cria as bordas dobraveis na div
+
+border-bottom-right-radius: seleciona a borda de acordo com esquerda , direita ( left,rigth, bottom)
 
 
+
+#conteudo3 {  opacity:0.5 ; width: 500px; padding: 30px;  
+     background: red; box-shadow: seagreen 10px 10px ;  border-radius: 10px 10px 10px; }
 
 
 /*AULA 11 Overflow cria um scroll de rolamento e o opacity deixa invisivel 
@@ -21,10 +40,11 @@ border-radius - cria as bordas dobraveis na div
 *{box-sizing: border-box;}
 
 #conteudo5 { width: 300px; height: 50px;
-     background: steelblue; overflow: auto;    }
+     background: steelblue; overflow: auto;   }
 
 #conteudo3 {  opacity:0.5 ; width: 500px; padding: 30px;  
-     background: red; box-shadow: seagreen 10px 10px ;  border-radius: 10px 10px 10px; }
+     background: red; box-shadow: seagreen 10px 10px ; 
+      border-radius: 10px 10px 10px; border-bottom-right-radius:  20px; }
  
 #conteudo4 {    padding: 30px; margin-top: 40px;   width:  500px;  
     text-align: left; background: orange; box-shadow: 10px 10px pink; 
