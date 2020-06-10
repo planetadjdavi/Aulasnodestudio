@@ -3,12 +3,26 @@
 
 
 
+div { width: 400px; height:  300px; background: linear-gradient( to right,  red,black)}
+
+linear gradiente: - direciona uma mistura de cores . O atributo to rigth , ou to left , ou to top
+informa a direção da cor 
+
+/*Aula 16
+
+background-color: rgb(230, 89, 225,0.9)
+
+rgb ,
+rgba a= opacidade
+ é nos valores das cores  r=red, b=blue, g=green
+hsl é na porcentagem das cores do pothoshop
+
 /*aula 13
 
 
 Como adicionar ma fonte no texto que vc baixou de um site e vc curtiu. Vc tem que baixar e converter
 no formato woff.Após converter adicione com o comando abaixo.
-
+ 
 @font-face {
 
 font-family: open_sans;
